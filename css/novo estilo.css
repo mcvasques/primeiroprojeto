@@ -33,17 +33,5 @@ header nav ul li a:hover{
 #sidebar{
     background: #ff6600;
     font-family: Tahoma, sans-serif; size: 100px;
-    
-}
-aside ul li{
-    list-style: none;
-    
 
-}
-aside ul li a{
-    font-family: Arial, sans-serif; 
-    color: black;
-    font-size: 18px;
-
-}
 }
