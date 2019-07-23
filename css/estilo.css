@@ -37,6 +37,9 @@ header nav ul li a:hover{
 }
 aside ul li{
     list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    
     
 
 }
@@ -44,6 +47,22 @@ aside ul li a{
     font-family: Arial, sans-serif; 
     color: black;
     font-size: 18px;
+    text-decoration: none;
+    
 
+}
+aside ul li a:hover{
+    text-decoration: underline;
+}
+footer a{
+      color: black;
+      background: #ff6600;
+}
+footer ul li {
+    list-style: none;
+   
+}
+footer ul li a{
+    text-decoration: none;
 }
 }
