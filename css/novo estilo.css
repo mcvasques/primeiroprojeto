@@ -7,8 +7,10 @@ body{
     margin: auto;
     background: #DCDCDC;
     padding: 10px; 20px;
-    
-}
+    }
+header h1{
+    text-align: center;
+}   
 header nav ul{
     list-style: none; 
     padding-left: 0px;
@@ -33,5 +35,47 @@ header nav ul li a:hover{
 #sidebar{
     background: #ff6600;
     font-family: Tahoma, sans-serif; size: 100px;
+    
+}
+aside ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    
+    
 
+}
+aside ul li a{
+    font-family: Arial, sans-serif; 
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    
+
+}
+aside ul li a:hover{
+    text-decoration: underline;
+}
+footer a{
+      color: black;
+      background: #ff6600;
+}
+footer ul li {
+    list-style: none;
+   
+}
+footer ul li a{
+    text-decoration: none;
+    background: #DCDCDC
+}
+
+footer div{
+    background: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #DCDCDC;
+    
+}
+label{
+    display: block;
 }
